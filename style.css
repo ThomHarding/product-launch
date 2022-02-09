@@ -6,14 +6,14 @@
     names have to start with "--" */
   --nomad: #b9af9e;
   --zeus: #221d14;
-  --irish-coffee: #244360;
-  --potters-clay: #84ccee;
-  --sinopia: rgb(63, 20, 0);
+  --ocean-blue: #244360;
+  --clear-ocean: #84ccee;
+  --warning-red: rgb(63, 20, 0);
   --white: white;
 }
 
 body {
-  background: var(--potters-clay);
+  background: var(--clear-ocean);
   /* these become the default font settings for the reset of the page */
   font-family: 'Patua One', sans-serif;
   color: var(--zeus);
@@ -94,7 +94,7 @@ body {
   
   /* Make the form go the full width so background color goes to the edges */
   width: 100%;
-  background: var(--irish-coffee);
+  background: var(--ocean-blue);
   
   /* Add padding on all sides */
   padding: 60px;
@@ -126,8 +126,7 @@ input {
 
 button {
   /* Color and font settings for label */
-  /* Bright color for Call To Action (CTA) */
-  background: var(--sinopia);
+  background: var(--warning-red);
   color: var(--white);
   border: 0;
   padding: 20px;
