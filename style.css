@@ -19,6 +19,7 @@ body {
   color: var(--zeus);
 }
 
+
 #fish {
   /* for grid mode, the area for this element */
   grid-area: image;
@@ -50,7 +51,7 @@ body {
       'lead image'
       'signup  image';
     /* Default positioning: stretch horizontally, center vertically */
-    justify-items: stretch;
+    justify-items: center;
     align-items: center;
   }
 
@@ -134,3 +135,10 @@ button {
   font-size: 1.5rem;
 }
 
+#youthere {
+  text-align: center;
+  position: absolute;
+  justify-content: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+}
