@@ -6,9 +6,9 @@
     names have to start with "--" */
   --nomad: #b9af9e;
   --zeus: #221d14;
-  --irish-coffee: #604124;
-  --potters-clay: #836038;
-  --sinopia: #c25223ff;
+  --irish-coffee: #244360;
+  --potters-clay: #84ccee;
+  --sinopia: rgb(63, 20, 0);
   --white: white;
 }
 
@@ -19,7 +19,7 @@ body {
   color: var(--zeus);
 }
 
-#hero-image {
+#fish {
   /* for grid mode, the area for this element */
   grid-area: image;
 
@@ -56,8 +56,9 @@ body {
 
   /* In wide mode, image should take up the full height,
      but not go wider than the allotted column width */
-  #hero-image {
+  #fish {
     height: 100%;
+    opacity: 0.3;
     max-width: 100%;
   }
 }
@@ -86,7 +87,7 @@ body {
   line-height: 1.5;
 }
 
-#signup-form {
+#name {
   /* for grid mode, the area for this element */
   grid-area: signup; 
   
