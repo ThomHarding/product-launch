@@ -9,6 +9,8 @@ Product Launch Page - Dev 101
 * but most of all
 * be kind
 
-> Who are you quoting
+> quotes, you say?
+
+- Abraham Lincoln
 
 [I'm scientist](./README.md#words-to-live-by)
