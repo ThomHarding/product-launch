@@ -124,6 +124,10 @@ input {
   font-size: 1.2rem;
 }
 
+.hide {
+  display: none;
+}
+
 button {
   /* Color and font settings for label */
   background: var(--warning-red);
@@ -139,5 +143,5 @@ button {
   position: absolute;
   justify-content: center;
   font-family: 'Space Mono', monospace;
-  font-size: 30px;
+  font-size: 40px;
 }

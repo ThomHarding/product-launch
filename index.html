@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <title>The Mysterious Fish</title>
+
 </head>
 <body>
     <img id="fish" src="./moon-fish.jpg" alt="Ak'laketh in his mortal form" title="You have gazed upon him. Can you look away?"/>
@@ -22,11 +23,14 @@
         Perhaps you are not convinced?<br>
         Behold a <a href="./names.html">list</a> of His most powerful followers.
     </p>
-
+    <div id="youFoolDiv" class="hide">
+        Why
+    </div>
     <form id="name">
         <label for="truename"> True Name </label>
-        <input id="truename" name="truename" required />
+        <input type="text" id="truername" name="truename" required />
         <button>Accept Him as Your Patron</button>
     </form>
+    <script src="app.js" type="module"></script>
 </body>
 </html>
